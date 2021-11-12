@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "850018722878",
+    "firebase_url": "https://teacherhelp-d8eed-default-rtdb.firebaseio.com",
+    "project_id": "teacherhelp-d8eed",
+    "storage_bucket": "teacherhelp-d8eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850018722878:android:ff94369b8337cf460a5d6f",
+        "android_client_info": {
+          "package_name": "com.example.teacherhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850018722878-majl4c8i9pgcdon1h5qq8jd4sqa60mdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teacherhelp",
+            "certificate_hash": "010aa16fb71f0abbdc679a8313cb0c12acbaed1a"
+          }
+        },
+        {
+          "client_id": "850018722878-eol1s4fkst545rl6qeqascf03k37ij4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqLAVkfxARzhRMOfi9_rVlw8xpU5nqqHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850018722878-eol1s4fkst545rl6qeqascf03k37ij4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
