@@ -1,3 +1,3 @@
 # TeacherHelp
-Um app feito para a dicíclica de extensão VI , que tem por finalidade ajudar professores a saber onde encontrar ferramentas de uso para o meio acadêmico. 
+Um app feito para a dicíplina de extensão VI , que tem por finalidade ajudar professores a tirarem suas duvidas com outras pessoas, para ajudar com a familiarização com a tecnologia.
 
