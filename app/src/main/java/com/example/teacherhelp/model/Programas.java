@@ -1,33 +1,71 @@
 package com.example.teacherhelp.model;
 
-public class Programas {
+import java.io.Serializable;
 
-    private String resumo;
-    private String titulo;
+public class Programas implements Serializable {
 
-    public Programas(String titulo, String resumo) {
-        this.titulo = titulo;
-        this.resumo = resumo;
+    String tituloPrograma, resumoPrograma,linkPrograma;
+    String descricaoPrograma;
+
+
+    int imageprograma;
+
+    @Override
+    public String toString() {
+        return "Programas{" +
+                "tituloPrograma='" + tituloPrograma + '\'' +
+                ", resumoPrograma='" + resumoPrograma + '\'' +
+                ", linkPrograma='" + linkPrograma + '\'' +
+                ", descricaoPrograma='" + descricaoPrograma + '\'' +
+                ", imageprograma=" + imageprograma +
+                '}';
     }
 
-    public Programas() {
+    public Programas(String tituloPrograma, String resumoPrograma, int imageprograma, String linkPrograma,String descricaoPrograma) {
+        this.tituloPrograma = tituloPrograma;
+        this.resumoPrograma = resumoPrograma;
+        this.imageprograma = imageprograma;
+        this.linkPrograma = linkPrograma;
+        this.descricaoPrograma = descricaoPrograma;
     }
 
-    public String getResumo() {
-        return resumo;
+    public String getDescricaoPrograma() {
+        return descricaoPrograma;
     }
 
-    public void setResumo(String resumo) {
-        this.resumo = resumo;
+    public void setDescricaoPrograma(String descricaoPrograma) {
+        this.descricaoPrograma = descricaoPrograma;
     }
 
-    public String getTitulo() {
-        return titulo;
+    public String getLinkPrograma() {
+        return linkPrograma;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setLinkPrograma(String linkPrograma) {
+        this.linkPrograma = linkPrograma;
+    }
+
+    public String getTituloPrograma() {
+        return tituloPrograma;
+    }
+
+    public void setTituloPrograma(String tituloPrograma) {
+        this.tituloPrograma = tituloPrograma;
+    }
+
+    public String getResumoPrograma() {
+        return resumoPrograma;
+    }
+
+    public void setResumoPrograma(String resumoPrograma) {
+        this.resumoPrograma = resumoPrograma;
+    }
+
+    public int getImageprograma() {
+        return imageprograma;
+    }
+
+    public void setImageprograma(int imageprograma) {
+        this.imageprograma = imageprograma;
     }
 }
-
-

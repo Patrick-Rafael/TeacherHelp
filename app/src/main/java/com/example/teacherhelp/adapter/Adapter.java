@@ -8,16 +8,19 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teacherhelp.R;
-import com.example.teacherhelp.model.Programas;
+import com.example.teacherhelp.activity.ClickRecycler;
+import com.example.teacherhelp.model.Enquetes;
 
 import java.util.List;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
-    private List<Programas> listaProgramas;
+    private List<Enquetes> listaEnquetesMain;
+    private final ClickRecycler clickRecycler;
 
-    public Adapter(List<Programas> lista ) {
-        this.listaProgramas = lista;
+    public Adapter(List<Enquetes> lista, ClickRecycler clickRecycler ) {
+        this.listaEnquetesMain = lista;
+        this.clickRecycler = clickRecycler;
     }
 
     @Override
@@ -32,17 +35,17 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
-        Programas programa = listaProgramas.get( position );
+        Enquetes enquete = listaEnquetesMain.get( position );
 
-        holder.titulo.setText(programa.getTitulo());
-        holder.resumo.setText(programa.getResumo());
+        holder.titulo.setText(enquete.getTitulo());
+        holder.resumo.setText(enquete.getResumo());
 
 
     }
 
     @Override
     public int getItemCount() {
-        return listaProgramas.size();
+        return listaEnquetesMain.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -56,7 +59,12 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
             resumo = itemView.findViewById(R.id.textResumoAdapter);
             titulo = itemView.findViewById(R.id.textTituloAdapter);
 
-
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    clickRecycler.onItemClick(getAdapterPosition());
+                }
+            });
 
         }
     }

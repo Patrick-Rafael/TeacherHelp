@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">Teacher Help</string>
-    <string name="text_office">O Office 365 é um modulo do programa office gratuito para ser usado no navegador, o unico requisito dele é apenas uma conta microsoft
+    <string name="text_office">O Office Online é uma versão online da suíte de aplicativos para escritório Microsoft Office.
+        Contém versão online do Word, Excel, PowerPoint, OneNote, Calendário e
+        Pessoas, que possibilitam criar, salvar, editar e compartilhar documentos do Office no OneDrive de qualquer lugar, usando um navegador com suporte.
+    </string>
+
+    <string name="text_classRoom">O Office 365 é um modulo do programa office gratuito para ser usado no navegador, o unico requisito dele é apenas uma conta microsoft
     para que se possa aproveitar ao maximo de seus serviços, como o word, planilhas, exel e muito mais.
     </string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

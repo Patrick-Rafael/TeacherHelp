@@ -40,6 +40,7 @@ public class CadastroActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = textEmail.getText().toString();
                 String senha = textSenha.getText().toString();
+                String nome = textNome.getText().toString();
 
                 //Validando campos
 
@@ -48,6 +49,7 @@ public class CadastroActivity extends AppCompatActivity {
 
                         registro = new Registro();
                         registro.setEmail(email);
+                        registro.setNome(nome);
                         registro.setSenha(senha);
                         cadastrarUsuario();
 
@@ -83,6 +85,9 @@ public class CadastroActivity extends AppCompatActivity {
 
                 if (task.isSuccessful()) {
 
+                    String idUsuario = task.getResult().getUser().getUid(); // Base64Custon.codificarBase64(usuario.getEmail());
+                    registro.setIdUsuario(idUsuario);
+                    registro.salvar();
                     abrirLogin();
 
                 } else {

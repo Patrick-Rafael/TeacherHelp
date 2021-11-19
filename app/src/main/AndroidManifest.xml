@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TeacherHelp">
-        <activity android:name=".activity.AdicionarActivity"></activity>
+        <activity
+            android:name=".activity.ExibirProgramas"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ComentarioActivity"
+            android:exported="false" />
+        <activity android:name=".activity.AdicionarActivity" />
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.CadastroActivity" />
         <activity android:name=".activity.LoginActivity">
