@@ -35,6 +35,9 @@ public class CadastroActivity extends AppCompatActivity {
 
         ids();
 
+        //Esconde a actionBar
+        getSupportActionBar().hide();
+
         buttonRegistar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

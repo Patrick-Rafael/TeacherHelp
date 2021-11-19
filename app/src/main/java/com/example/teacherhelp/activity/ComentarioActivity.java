@@ -123,7 +123,7 @@ public class ComentarioActivity extends AppCompatActivity {
         recyclerComentarios.setLayoutManager(layoutManager);
         recyclerComentarios.setHasFixedSize(true);
         recyclerComentarios.setAdapter(adapterComentarios);
-        recyclerComentarios.addItemDecoration(new DividerItemDecoration(getApplicationContext(), LinearLayout.VERTICAL));
+        //recyclerComentarios.addItemDecoration(new DividerItemDecoration(getApplicationContext(), LinearLayout.VERTICAL));
 
 
         //Puxando a lista do Firebase e exibindo no RecyclerView

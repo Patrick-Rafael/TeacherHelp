@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.ComentarioActivity">
+    tools:context=".activity.ComentarioActivity"
+    >
 
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
-        android:backgroundTint="@color/browser_actions_bg_grey"
         android:layout_height="0dp"
         android:foregroundGravity="center"
         app:layout_constraintBottom_toTopOf="@+id/recyclerComentarios"
@@ -19,7 +19,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="1.0"
+        android:background="#a8edea">
 
         <TextView
             android:id="@+id/tituloComentario"
@@ -85,6 +86,7 @@
         android:layout_marginRight="64dp"
         android:layout_marginBottom="8dp"
         app:boxBackgroundColor="#00FFFFFF"
+        app:hintTextColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,15 +96,21 @@
             android:id="@+id/textComentarioTeste"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Faça seu comentário" />
+            android:hint="Faça seu comentário"
+            android:inputType="textCapSentences">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageButton
         android:id="@+id/buttonEnvivarTeste"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/icon_add_24"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_enviar"
+        android:minWidth="36dp"
+        android:minHeight="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textComentarioInputTeste"
