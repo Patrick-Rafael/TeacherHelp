@@ -5,9 +5,34 @@
         Pessoas, que possibilitam criar, salvar, editar e compartilhar documentos do Office no OneDrive de qualquer lugar, usando um navegador com suporte.
     </string>
 
-    <string name="text_classRoom">O Office 365 é um modulo do programa office gratuito para ser usado no navegador, o unico requisito dele é apenas uma conta microsoft
-    para que se possa aproveitar ao maximo de seus serviços, como o word, planilhas, exel e muito mais.
+    <string name="text_zoom">O software homónimo da Zoom está entre as soluções de reuniões remotas mais populares em muitos países.
+        Ele é conhecido pela sua confiabilidade e facilidade de uso, especialmente quando comparado aos concorrentes
     </string>
+
+    <string name="text_classRoom">Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos. Ele é um recurso do Google Apps redirecionado à área de educação.
+        Desta forma, é uma plataforma de Internet que permite aos professores criar e distribuir tarefas de aprendizagem,
+        prática e avaliação aos alunos de uma forma sem papel; os alunos completam as tarefas nos seus computadores
+        (como trabalhos de casa ou em horários de trabalho designados durante o dia lectivo),
+        podem comunicar eletronicamente com o professor em caso de problemas e dúvidas, e submetê-los eletronicamente ao professor após a sua conclusão.
+        Google Classroom é assim uma ferramenta para a aprendizagem integrada.
+    </string>
+
+    <string name="text_kahoot">Kahoot é uma plataforma de aprendizado baseada em jogos que permite criar divertidos jogos de aprendizagem.
+        Você pode criar questionários sobre qualquer tópico e em qualquer idioma, e personalizar esses questionários com vídeos, diagramas e imagens. Os alunos participam em “kahoots”
+        (jogos) registrando os códigos do jogo em seus dispositivos ou aplicativos.
+    </string>
+
+    <string name="text_googlemeet">Google Meet é um serviço de comunicação por vídeo desenvolvido pelo Google.
+                                É um dos dois serviços que substituem a versão anterior do Google Hangouts, o outro é o Google Chat.
+                                Em 29 de abril de 2020, o Google anunciou a disponibilização gratuita do Google Meet a todos os usuários a partir de maio. Na versão gratuita,
+                                as videoconferências ficarão limitadas a 60 minutos a partir de setembro de 2020 - supondo que a necessidade de análises de vídeos devido à pandemia de coronavírus diminua.
+    </string>
+
+
+    <string name="text_commonlit">CommonLit é um banco de dados de materiais de instrução literários que você pode usar para elaborar aulas. Você pode escolher uma aula da biblioteca digital, compartilhá-la com seus alunos, atribuir-lhes perguntas baseadas em texto e analisar seus desempenhos.
+    </string>
+
+
 
 
 

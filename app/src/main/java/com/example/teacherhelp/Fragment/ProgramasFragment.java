@@ -135,10 +135,20 @@ public class ProgramasFragment extends Fragment {
         );
         this.listaProgramas.add(programas);
 
-        programas = new Programas("Zoom", "Reuniões online, Boa estabilidade e grátis.", R.drawable.logozoom,"https://zoom.us/","" );
+        programas = new Programas("Zoom", "Reuniões online, Boa estabilidade e grátis.", R.drawable.logozoom,"https://zoom.us/",getString(R.string.text_zoom));
         this.listaProgramas.add(programas);
 
-        programas = new Programas("Homem de aço", "Ação", R.drawable.logoclassroom,"","" );
+        programas = new Programas("Google ClassRoom", "Sistema de gerenciamento de conteúdo para escolas, de forma online gratuito ", R.drawable.logoclassroom,"https://edu.google.com/intl/ALL_br/products/classroom/", getString(R.string.text_classRoom) );
+        this.listaProgramas.add(programas);
+
+        programas = new Programas("Kahoot", "Kahoot é uma plataforma de aprendizado baseada em jogos que permite criar divertidos jogos de aprendizagem.", R.drawable.logokahoot,"https://play.google.com/store/apps/details?id=no.mobitroll.kahoot.android&hl=pt_BR&gl=US",getString(R.string.text_kahoot));
+        this.listaProgramas.add(programas);
+
+        programas = new Programas("Google Meet", "Google Meet é um serviço de comunicação por vídeo desenvolvido pelo Google.", R.drawable.logomeet,"https://meet.google.com/#", getString(R.string.text_googlemeet) );
+        this.listaProgramas.add(programas);
+
+        programas = new Programas("CommonLit", "CommonLit é um banco de dados de materiais de instrução literários que você pode usar para elaborar aulas.", R.drawable.logocommonlit,
+                "https://www.commonlit.org/en", getString(R.string.text_commonlit) );
         this.listaProgramas.add(programas);
 
 
